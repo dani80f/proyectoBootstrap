@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.3.6"
+  "devDependencies": {
+    "bootstrap": "^5.3.6",
+    "sass": "^1.89.2"
   }
 }
