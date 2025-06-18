@@ -1,0 +1,8 @@
+
+.header__icon {
+    width: 30px;
+}
+
+.header__icon.w-lg-75 {
+    width: 60px !important;
+}
