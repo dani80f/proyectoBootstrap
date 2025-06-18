@@ -2,12 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
+<div class="container-fluid">
 
+    <header class="header row bg-primary align-items-center py-3">
+
+        <div class="col-auto">
+
+            <a href="index.html"><img src="assets/logo.png" class="img-fluid logo-img"></a>
+
+
+        </div>
+        <div class="col"></div>
+
+        <div class="col-auto d-flex gap-3 align-items-end">
+
+            <a href="login.html" class="d-inline-flex">
+                <img src="assets/user.png" class="header__icon img-fluid w-25 w-sm-50 w-lg-75">
+
+            </a>
+            <a href="form.html" class="d-inline-flex">
+
+                <img src="assets/contact-form.png" class="header__icon img-fluid w-25 w-sm-50 w-lg-75">
+
+            </a>
+
+
+        </div>
+
+    </header>
+
+
+
+    <main class="main container d-flex justify-content-center align-items-center min-vh-100">
+
+
+
+        <form class="main__form needs-validation w-100">
+
+            <div class="mb-3">
+
+                <label for="usuario" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="usuario" required>
+
+                <div class="invalid-feedback">
+                    Por favor, introduzca su usuario.
+                </div>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for="contrasena" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="contrasena" required>
+
+                <div class="invalid-feedback">
+                    Por favor, introduzca su contraseña.
+                </div>
+
+            </div>
+
+
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+
+        </form>
+    </main>
+
+
+</div>
+<footer class="bg-dark text-white py-5 container-fluid px-0">
+
+    <div class="container">
+
+        <div class="row justify-content-center text-center">
+
+            <div class="col-12">
+
+                <h1 class="mb-4">Soporte Técnico 24/7</h1>
+
+                <div class="social-icons">
+
+                    <a href="https://es-es.facebook.com/iesruizgijon/" class="text-white mx-3 fs-3">
+                        <img src="assets/facebook_icon2.png">
+
+
+                    </a>
+                    <a href="https://x.com/IES_RuizGijon" class="text-white mx-3 fs-3">
+
+                        <img src="assets/twitter_icon.png">
+                    </a>
+                    <a href="https://www.instagram.com/iesruizgijon/?hl=es" class="text-white mx-3 fs-3">
+
+                        <img src="assets/instagram.png">
+
+
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCmuUnBG8VK5wUUTGA2OhHzA" class="text-white mx-3 fs-3">
+
+                        <img src="assets/youtube_icon.png">
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.js"></script>
 
 
 </body>
